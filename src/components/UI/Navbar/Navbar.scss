@@ -1,0 +1,49 @@
+.nav__container {
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 1200px;
+    height: 53px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(198, 197, 197);
+    margin-bottom: 40px;
+
+    .pages {
+        display: flex;
+        gap: 50px;
+        margin-top: 7px;
+        font-size: 16px;
+
+        .nav__links {
+            padding: 0 5px;
+        }
+    }
+
+    .nav__icons {
+        display: flex;
+        gap: 30px;
+        align-content: center;
+
+        p {
+            font-size: 16px;
+            margin-top: 7px;
+        }
+
+        .login__btn {
+            width: 100px;
+            height: 35px;
+            background-color: rgba(70, 163, 88, 1);
+            color: rgba(255, 255, 255, 1);
+            font-size: 16px;
+            font-weight: 500;
+            border: none;
+            border-radius: 6px;
+        }
+    }
+}
+
+.nav__links.active {
+    color: rgba(70, 163, 88, 1);
+    font-weight: 700;
+    border-bottom: 3px solid rgba(70, 163, 88, 1);;
+}
